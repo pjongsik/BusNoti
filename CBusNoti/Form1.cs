@@ -124,7 +124,7 @@ namespace CBusNoti
 
                             if ( strDelay2.Equals("Y"))
                             {   
-                                strTxt2 +=  " 회차점 대기중 ddddddddddddddddddddddddddddddddddddddddddddddddddddd";
+                                strTxt2 +=  " 회차점 대기중 ddddddddddddddddddddddddddddddddddddddddddddddddddd  dd";
                             }
                             else 
                             {
