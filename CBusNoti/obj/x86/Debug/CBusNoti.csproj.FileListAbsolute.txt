@@ -14,3 +14,6 @@ C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\bin\De
 C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\obj\x86\Debug\CBusNoti.exe.manifest
 C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\obj\x86\Debug\CBusNoti.application
 C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\obj\x86\Debug\CBusNoti.Noti.NotiForm.resources
+E:\BusTest\BusNoti\CBusNoti\bin\Debug\CBusNoti.exe.config
+E:\BusTest\BusNoti\CBusNoti\obj\x86\Debug\CBusNoti.exe
+E:\BusTest\BusNoti\CBusNoti\obj\x86\Debug\CBusNoti.pdb
