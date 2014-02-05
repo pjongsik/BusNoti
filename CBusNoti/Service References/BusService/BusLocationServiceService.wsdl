@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:ns2="http://cxf.apache.org/bindings/xformat" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://service.ws.api.javaweb/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://ws.api.javaweb/" name="BusLocationServiceService" targetNamespace="http://service.ws.api.javaweb/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://ws.api.javaweb/" location="http://openapi.gbis.go.kr:80/ws/buslocationservice?wsdl=BusLocationInterface.wsdl" />
+  <wsdl:types />
+  <wsdl:binding name="BusLocationServiceServiceSoapBinding" type="ns1:BusLocationInterface">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getBusLocationList">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getBusLocationList">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getBusLocationListResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BusLocationServiceService">
+    <wsdl:port name="BusLocationServicePort" binding="tns:BusLocationServiceServiceSoapBinding">
+      <soap:address location="http://openapi.gbis.go.kr:80/ws/buslocationservice" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,14 @@
+C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\bin\Release\CBusNoti.exe.config
+C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\bin\Release\CBusNoti.exe.manifest
+C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\bin\Release\CBusNoti.application
+C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\bin\Release\CBusNoti.exe
+C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\bin\Release\CBusNoti.pdb
+C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\bin\Release\System.Data.SQLite.DLL
+C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\bin\Release\System.Data.SQLite.xml
+C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\obj\x86\Release\CBusNoti.Form1.resources
+C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\obj\x86\Release\CBusNoti.Properties.Resources.resources
+C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\obj\x86\Release\CBusNoti.csproj.GenerateResource.Cache
+C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\obj\x86\Release\CBusNoti.exe.manifest
+C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\obj\x86\Release\CBusNoti.application
+C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\obj\x86\Release\CBusNoti.exe
+C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\obj\x86\Release\CBusNoti.pdb

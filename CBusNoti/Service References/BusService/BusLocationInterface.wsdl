@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://ws.api.javaweb/" name="BusLocationInterface" targetNamespace="http://ws.api.javaweb/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="http://ws.api.javaweb/" elementFormDefault="unqualified" targetNamespace="http://ws.api.javaweb/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="getBusLocationList" type="tns:getBusLocationList" />
+      <xs:element name="getBusLocationListResponse" type="tns:getBusLocationListResponse" />
+      <xs:element name="response" type="tns:busLocationListResponse" />
+      <xs:complexType name="getBusLocationList">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string" />
+          <xs:element minOccurs="0" name="arg1" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getBusLocationListResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:busLocationListResponse" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="busLocationListResponse">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:apiResponse">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="msgBody" type="tns:busLocationList" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="apiResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="comMsgHeader" type="tns:resComMsgHeader" />
+          <xs:element minOccurs="0" name="msgHeader" type="tns:resMsgHeader" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="busLocationList">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="busLocationList" nillable="true" type="tns:busLocation" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="busLocation">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="endBus" type="xs:string" />
+          <xs:element minOccurs="0" name="lowPlate" type="xs:string" />
+          <xs:element minOccurs="0" name="plateNo" type="xs:string" />
+          <xs:element minOccurs="0" name="routeId" type="xs:string" />
+          <xs:element minOccurs="0" name="stationId" type="xs:string" />
+          <xs:element minOccurs="0" name="stationSeq" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="resComMsgHeader">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="errMsg" type="xs:string" />
+          <xs:element minOccurs="0" name="requestMsgID" type="xs:string" />
+          <xs:element minOccurs="0" name="responseMsgID" type="xs:string" />
+          <xs:element minOccurs="0" name="responseTime" type="xs:string" />
+          <xs:element minOccurs="0" name="returnCode" type="xs:string" />
+          <xs:element minOccurs="0" name="successYN" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="resMsgHeader">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="queryTime" type="xs:string" />
+          <xs:element name="resultCode" type="xs:int" />
+          <xs:element minOccurs="0" name="resultMessage" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getBusLocationList">
+    <wsdl:part name="parameters" element="ns1:getBusLocationList" />
+  </wsdl:message>
+  <wsdl:message name="getBusLocationListResponse">
+    <wsdl:part name="parameters" element="ns1:getBusLocationListResponse" />
+  </wsdl:message>
+  <wsdl:portType name="BusLocationInterface">
+    <wsdl:operation name="getBusLocationList">
+      <wsdl:input name="getBusLocationList" message="ns1:getBusLocationList" />
+      <wsdl:output name="getBusLocationListResponse" message="ns1:getBusLocationListResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
