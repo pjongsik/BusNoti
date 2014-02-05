@@ -17,3 +17,6 @@ C:\Users\pjongsik\Documents\Visual Studio 2010\Projects\CBusNoti\CBusNoti\obj\x8
 E:\BusTest\BusNoti\CBusNoti\bin\Debug\CBusNoti.exe.config
 E:\BusTest\BusNoti\CBusNoti\obj\x86\Debug\CBusNoti.exe
 E:\BusTest\BusNoti\CBusNoti\obj\x86\Debug\CBusNoti.pdb
+D:\BusNoti\CBusNoti\bin\Debug\CBusNoti.exe.config
+D:\BusNoti\CBusNoti\obj\x86\Debug\CBusNoti.exe
+D:\BusNoti\CBusNoti\obj\x86\Debug\CBusNoti.pdb
